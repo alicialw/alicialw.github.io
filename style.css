@@ -1,0 +1,54 @@
+* { 
+    text-wrap: pretty;
+    --color: grey;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+li, a {
+    font-family: "VT323", monospace, sans-serif;
+    color: var(--color);
+    text-decoration: none;
+    list-style: none;
+    font-size: 3rem;
+    list-style-position: outside;
+    line-height: normal;
+    text-align: center;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+nav {
+    display: block;
+    max-width: 640px;
+    max-height: 640px;
+    position: relative;
+    margin: 0 auto;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+li:hover, li>a:hover {
+    text-align: center;
+    text-decoration: line-through;
+    color: white;
+    list-style: square;
+    list-style-position: inside;
+    pointer-events: auto;
+    cursor: pointer;
+}
