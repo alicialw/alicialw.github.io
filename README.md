@@ -1,1 +1,1 @@
-
+Phuong Anh (Alicia) Nguyen is a multidisciplinary designer based in Ho Chi Minh City, Vietnam, focusing on 2D graphics and print production.x
